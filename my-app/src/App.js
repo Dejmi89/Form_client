@@ -10,7 +10,7 @@ import './App.css';
         message: '',
         email: '',
         sent: false,
-        buttonText: 'Send Message'
+        buttonText: 'Send Messagee'
     }
 
     formSubmit = (e) => {
