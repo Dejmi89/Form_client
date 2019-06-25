@@ -31,7 +31,7 @@ import './App.css';
           this.setState({ sent: true }, this.resetForm())
       })
       .catch( () => {
-        console.log('Message not sent')
+        console.log('Message not sentss')
       })
     }
 
