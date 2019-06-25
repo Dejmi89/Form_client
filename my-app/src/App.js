@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
 
-
+const API_URI='https://nodejs-express-7jvbx046o.now.sh/';
   class Contact extends Component {
 
     state = {
@@ -26,7 +26,7 @@ import './App.css';
           message: this.state.message
       }
       
-      axios.post('API_URI', data)
+      axios.post(API_URI, data)
       .then( res => {
           this.setState({ sent: true }, this.resetForm())
       })
